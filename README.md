@@ -22,7 +22,7 @@ This server is built on top of [`ftpd`](https://www.npmjs.com/package/ftpd) and 
 
 Feel free to extend the FTP server, some ideas you can work on:
 
-* Use SHA1 for hashed password
+* Use SHA1 for salted password hash
 * Secure with TLS ([example](https://github.com/sstur/nodeftpd/blob/master/test.js))
 * Trigger webhook when a file is uploaded
   * Start an [Azure WebJobs](https://azure.microsoft.com/en-us/documentation/articles/web-sites-create-web-jobs/)
